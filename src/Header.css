@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: center
+}
+
+.list{
+    margin-left: 250px;
+    margin-top: 50px;
+    color: darkgray;
+    display: inline-flex;
+}
+.list ul {
+    list-style: none;
+}

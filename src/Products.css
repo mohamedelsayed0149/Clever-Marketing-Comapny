@@ -1,0 +1,67 @@
+.products{
+  position: relative;
+  width: 100%;
+  background-color: dimgrey;
+  display: flex;
+  float: left;
+  height: 900px;
+}
+.products .first_box{
+    width: 300px;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.products .first_box img{
+    width: 400px;
+    height: 700px;
+}
+.products .second_box{
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: 50px 150px;
+    position: relative;
+}
+.products .second_box .small_box{
+   position: absolute;
+   background-color: midnightblue;
+   width: 400px;
+   height: 300px;
+   color: #eee;
+   padding-top: 100px;
+   font-size: 24px;
+}
+.products .second_box .small_box h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: overline;
+}
+.products .second_box .paragraph{
+    position: relative;
+   width: 400px;
+   height: 370px;
+   background-color: whitesmoke;
+   margin: 320px 0;
+   padding: 100px 20px;
+   font-weight: 400;
+   font-size: 20px;
+   
+}
+
+.products .second_box a{
+    color: red;
+    font-size: 22px;
+    margin: 100px 50px;
+}
+
+.products .third_box{
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+.products .third_box img{
+    width: 400px;
+    height: 700px;
+}

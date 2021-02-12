@@ -1,0 +1,119 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/*===== VARIABLES CSS =====*/
+:root{
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+/*===== Colores =====*/
+:root{
+  --first-color: #4070F4;
+  --second-color: #0E2431;
+}
+
+/*===== Fuente y tipografia =====*/
+:root{
+  --body-font: 'Poppins', sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+@media screen and (min-width: 768px){
+  :root{
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== Margenes =====*/
+:root{
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/*===== z index =====*/
+:root{
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+.contact_section {
+  position: relative;
+  width: 100%;
+  background-color: steelblue;
+  display: flex;
+  float: left;
+  height: 700px;
+    
+}
+.contact_section .section-title{
+    color: floralwhite;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    margin: 50px 100px;
+    padding: 10px 10px;
+    text-decoration-line: underline;
+}
+.contact__container {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 500px;
+}
+.contact__input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 2px solid red;
+    outline: none;
+    margin-bottom: var(--mb-4);
+  }
+  .contact__button{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
+    border-radius: .5rem;
+    color: #eeee;
+    background-color: red;
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+
+  }
+  .about {
+      position: relative;
+      margin: 20px 150px;
+      padding: 50px 0;
+  }
+  .about h2{
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+  .about h4{
+      color: navy;
+      font-size: 24px;
+      font-weight: 600;
+      margin: 10px 0;
+  }
+  .about .widget{
+      margin: 50px 0;
+  }
+  .about .widget p{
+      color: white;
+      font-weight: 500;
+      font-size: 18px;
+  }

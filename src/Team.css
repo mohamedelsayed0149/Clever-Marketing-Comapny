@@ -1,0 +1,59 @@
+.team{
+    position: relative;
+    width: 100%;
+    background-color: ghostwhite;
+    display: flex;
+    float: left;
+    height: 900px;
+  }
+.team .left_box{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    display: block;
+}
+.team .left_box img{
+   width: 500px;
+   height: 600px;
+   margin: 50px 0px;
+}
+.team .left_box .paragraph{
+    width: 400px;
+    display: block;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.team .left_box .paragraph a{
+    color: red;
+    margin-left: 300px;
+}
+.team .right_box {
+    width: 300px;
+    height: 700px;
+    display: block;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.team .right_box .small_box{
+    margin: 20px 0 ;
+    background-color: blue;
+    font-size: 18px;
+    width: 550px;
+    height: 300px;
+    padding: 100px 100px 0 0px ;
+    color: #eee;
+}
+.team .right_box img{
+    width: 550px;
+    height: 500px;
+}
+.team .right_box .small_box p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.team .right_box .small_box h1{
+    padding: 10px;
+    text-decoration: overline;
+    font-weight: 600;
+}
