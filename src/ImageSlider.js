@@ -35,6 +35,12 @@ const ImageSlider = ({ slides }) => {
           </div>
         );
       })}
+      <div className="lines">
+       <span className="line1"></span>
+       <span className="line2" ></span>
+       <span className="line3"></span>
+
+      </div>
     </section>
   );
 };

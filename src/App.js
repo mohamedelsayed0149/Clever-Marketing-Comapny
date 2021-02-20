@@ -20,11 +20,10 @@ function App() {
       <hr />
       <Team />
       <hr />
-      <ContactUs />
-      <hr />
       <MapPart />
       <hr />
-      <FooterContainer />
+      <ContactUs />
+      <hr />
     </div>
   );
 }

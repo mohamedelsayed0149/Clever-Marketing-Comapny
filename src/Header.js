@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Header.css"
 import { RiArrowDownSLine } from 'react-icons/ri';
+import Logo from "./images/logo.png";
 
 function Header() {
     return (
         <section className="header">
           <div className="logo">
-            <img src="/images/logo.png" alt="header"/>
+            <img src={Logo} alt="header"/>
         </div>
         <div className="list">
           <ul>

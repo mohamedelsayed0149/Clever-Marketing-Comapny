@@ -46,33 +46,47 @@
 }
 .contact_section {
   position: relative;
-  width: 100%;
-  background-color: steelblue;
-  display: flex;
-  float: left;
-  height: 700px;
+    width: 100%;
+    display: flex;
+    float: left;
+    height: 700px;
+    margin-top: 40%;
     
 }
+
 .contact_section .section-title{
-    color: floralwhite;
-    background-color: red;
-    width: 200px;
-    height: 50px;
-    margin: 50px 100px;
-    padding: 10px 10px;
-    text-decoration-line: underline;
+  color: floralwhite;
+  background-color: red;
+  margin: 50px 100px;
+  padding: 10px 10px;
+  width: 415px;
+  height: 120px;
+  
+}
+.contact_section .section-title h2{
+  font-size: 46px;
+  font-weight: 700;
+
+}
+.contact_section .section-title span {
+  height: 5px;
+    width: 130px;
+    background-color: #fff;
+    position: absolute;
+
 }
 .contact__container {
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 500px;
+    margin-top: 230px;
+    margin-left: 100px;
+    width: 550px;
+    position: absolute;
 }
 .contact__input{
     width: 100%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);
     padding: 2rem;
-    border-radius: .5rem;
+    border-radius: 3px;
     border: 2px solid red;
     outline: none;
     margin-bottom: var(--mb-4);
@@ -84,27 +98,30 @@
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
-    border-radius: .5rem;
+    border-radius: .2rem;
     color: #eeee;
     background-color: red;
     width: 100px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 24px;
 
   }
   .about {
-      position: relative;
-      margin: 20px 150px;
-      padding: 50px 0;
+    position: relative;
+    margin: 30px 220px;
+    padding: 90px 0;
+    color: #070b45;
+    background-color: rgba(228, 229, 241, 0.55);
+    z-index: -9;
+    height: max-content;
   }
   .about h2{
-    color: red;
-    font-size: 28px;
-    font-weight: 600;
+    color: #070b45;
+    font-size: 32px;
+    font-weight: 700;
     margin: 10px 0;
 }
   .about h4{
-      color: navy;
       font-size: 24px;
       font-weight: 600;
       margin: 10px 0;
@@ -113,7 +130,8 @@
       margin: 50px 0;
   }
   .about .widget p{
-      color: white;
-      font-weight: 500;
-      font-size: 18px;
+      
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 50px;
   }

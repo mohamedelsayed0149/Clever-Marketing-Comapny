@@ -17,7 +17,7 @@
     top: 50%;
     right: 32px;
     font-size: 3rem;
-    color: #000;
+    color: red;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -28,7 +28,7 @@
     top: 50%;
     left: 32px;
     font-size: 3rem;
-    color: #000;
+    color: red;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -43,5 +43,36 @@
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+  }
+  .lines{
+    position: relative;
+    z-index: 9;
+  }
+  .line1{
+   position: absolute;
+   width: 600px;
+   height: 7px;
+   background-color: red;
+   transform: rotate(90deg);
+   left: -120px;
+   top: 450px;
+  }
+  .line2{
+    position: absolute;
+   width: 600px;
+   height: 7px;
+   background-color: red;
+   transform: rotate(90deg);
+   left: -90px;
+   top: 450px;
+  }
+  .line3{
+    position: absolute;
+    width: 600px;
+    height: 7px;
+    background-color: red;
+    transform: rotate(90deg);
+    left: -60px;
+    top: 450px;
   }
   

@@ -1,14 +1,23 @@
 .header{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-left: 200px;
+}
+.logo{
+  width: 284px;
+  height: 188.4px;
+  margin: 0 58px 53.6px 32.4px;
+
 }
 
 .list{
-    margin-left: 250px;
+    margin-left: 350px;
     margin-top: 50px;
-    color: darkgray;
+    color: #515151;
     display: inline-flex;
+    font-size: 14px;
 }
 .list ul {
     list-style: none;
+
 }

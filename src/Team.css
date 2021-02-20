@@ -1,10 +1,10 @@
 .team{
     position: relative;
     width: 100%;
-    background-color: ghostwhite;
+    background-color: rgba(228, 229, 241, 0.55);
     display: flex;
     float: left;
-    height: 900px;
+    height: 1000px;
   }
 .team .left_box{
     position: absolute;
@@ -14,19 +14,23 @@
 }
 .team .left_box img{
    width: 500px;
-   height: 600px;
+   height: 500px;
    margin: 50px 0px;
 }
 .team .left_box .paragraph{
-    width: 400px;
+    width: 510px;
     display: block;
-    color: black;
-    font-size: 20px;
+    color: #515151;
+    font-size: 25px;
     font-weight: 400;
+    margin-top: 10px;
 }
 .team .left_box .paragraph a{
-    color: red;
-    margin-left: 300px;
+    color: #df0021;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 39px;
+    text-decoration: underline;
 }
 .team .right_box {
     width: 300px;
@@ -37,23 +41,70 @@
 }
 .team .right_box .small_box{
     margin: 20px 0 ;
-    background-color: blue;
+    background-color: #df0021;
     font-size: 18px;
-    width: 550px;
-    height: 300px;
+    width: 617px;
+    height: 336px;
     padding: 100px 100px 0 0px ;
     color: #eee;
 }
 .team .right_box img{
-    width: 550px;
-    height: 500px;
+    width: 617px;
+    height: 490px;
 }
 .team .right_box .small_box p{
-    font-size: 18px;
-    font-weight: 500;
+
+    font-size: 42px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 55px;
+
+}
+.team .right_box .small_box span {
+    position: absolute;
+    width: 340px;
+    height: 5px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: -115px;
 }
 .team .right_box .small_box h1{
-    padding: 10px;
-    text-decoration: overline;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 56px;
+    margin-top: 70px;
+    margin-left: 20px;
+    letter-spacing: 3px;
 }
+.lines-teams{
+    position: relative;
+    z-index: 9;
+  }
+  .line1-teams{
+   position: absolute;
+    width: 900px;
+    height: 7px;
+    background-color: red;
+    transform: rotate(90deg);
+    right: 910px;
+    top: 900px;
+  }
+  .line2-teams{
+    position: absolute;
+     width: 900px;
+     height: 7px;
+     background-color: red;
+     transform: rotate(90deg);
+     right: 940px;
+     top: 900px;
+   }
+   .line3-teams{
+    position: absolute;
+     width: 900px;
+     height: 7px;
+     background-color: red;
+     transform: rotate(90deg);
+     right: 970px;
+     top: 900px;
+   }
+  

@@ -6,12 +6,17 @@ const ContactUs = () => {
 
     return (
         <section className="contact_section" id="contact">
-                <h2 className="section-title">Contact Us</h2>
+            <div className="section-title">        
+                 <h2 >Contact Us</h2>
+                 <span></span>
+             </div>
+               
 
                 <div className="contact__container bd-grid">
                     <form action="" className="contact__form">
                         <input type="text" placeholder="Name" className="contact__input" />
                         <input type="mail" placeholder="Email" className="contact__input"/>
+                        <input type="text" placeholder="Subject" className="contact__input" />
                         <textarea name="" placeholder="Type Your Message..." id="" cols="0" rows="10" className="contact__input"></textarea>
                         <input type="button" value="Send" className="contact__button button"/>
                     </form>
@@ -19,28 +24,36 @@ const ContactUs = () => {
             <div className="about">
             <h2>Contact Details</h2>
              <div className="widget widget_tweets">
-                <h4>Head Office</h4>
-                <p className="address">
-                   87 abdel aziz fahmy , Cairo , Egypt
-
+                <h4>Head Office :</h4>
+                <p className="address"> 
+                87 Abdel Aziz Fahmy St. Heliopolis, Saint Fatima, Cairo, Egypt
                 </p>
              </div>
              <div className="widget widget_tweets">
-                <h4>Phone</h4>
+                <h4>Phone :</h4>
                 <p className="address">
-                +(20) 01157551041
+                +202-27756480 / +202-27756481
                 </p>
              </div>
              <div className="widget widget_tweets">
-             <h4>Fax</h4>
+             <h4>Fax :</h4>
              <p className="address">
-             +(20) 01157551041 / +(30) 01155751042
+             +202-27757517
              </p>
           </div>
              <div className="widget widget_tweets">
-               <h4>E-mail</h4>
+               <h4>E-mail :</h4>
                <p className="address">
-                  info@rebuxegypt.eg
+               info@rubexegypt.eg
+               customerservice@rubexegypt.eg
+               sales@rubexegypt.eg
+               export@rubexegypt.eg
+               </p>
+		    </div>
+          <div className="widget widget_tweets">
+               <h4>Factories :</h4>
+               <p className="address">
+               New Borg El Arab City Third Industrial Zone Alexandria, Egypt
                </p>
 		    </div>
             </div>

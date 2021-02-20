@@ -1,14 +1,18 @@
 import React from 'react'
 import "./Team.css"
+import Team1 from "./images/team--1.png";
+import Team2 from "./images/team--2.png";
 
 function Team() {
     return (
         <div className="team">
            <div className="container">
              <div className="left_box">
-                <img src="./images/team--1.png" alt=""/>
+                <img src={Team1} alt=""/>
                 <div className="paragraph">
-                <p>I struggled just to get out of bed. Every morning, the alarm clock would ring. I knew I should get up and deal but anxiety rushed in and I’d hit the snooze button instead. Here’s the thing.</p>
+                <p>Our ability to provide outstanding results for our clients starts with our team of hard work experts.
+                We come from a diverse set of experiences that
+                range from Engineers and workers to deliver the best quality with the perfect price.</p>
                 <a href=" ">See More</a>
                 </div>
              </div>
@@ -18,10 +22,15 @@ function Team() {
                 <span></span>
                 <h1>Team Membres</h1>
                </div>
-               <img src="./images/team--2.png" alt=""/>
+               <img src={Team2} alt=""/>
              </div>
            
            </div>
+           <div className="lines-teams">
+           <span className="line1-teams"></span>
+           <span className="line2-teams"></span>
+           <span className="line3-teams"></span>
+          </div>
           </div>
     )
 }
