@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Clever-Marketing-Comapny/static/css/main.b68a7ea4.chunk.css",
-    "main.js": "/Clever-Marketing-Comapny/static/js/main.7bfdab56.chunk.js",
-    "main.js.map": "/Clever-Marketing-Comapny/static/js/main.7bfdab56.chunk.js.map",
+    "main.css": "/Clever-Marketing-Comapny/static/css/main.c23e23eb.chunk.css",
+    "main.js": "/Clever-Marketing-Comapny/static/js/main.d89061c9.chunk.js",
+    "main.js.map": "/Clever-Marketing-Comapny/static/js/main.d89061c9.chunk.js.map",
     "runtime-main.js": "/Clever-Marketing-Comapny/static/js/runtime-main.915b2f1e.js",
     "runtime-main.js.map": "/Clever-Marketing-Comapny/static/js/runtime-main.915b2f1e.js.map",
     "static/js/2.fbc52c47.chunk.js": "/Clever-Marketing-Comapny/static/js/2.fbc52c47.chunk.js",
@@ -10,13 +10,18 @@
     "static/js/3.6ef69b20.chunk.js": "/Clever-Marketing-Comapny/static/js/3.6ef69b20.chunk.js",
     "static/js/3.6ef69b20.chunk.js.map": "/Clever-Marketing-Comapny/static/js/3.6ef69b20.chunk.js.map",
     "index.html": "/Clever-Marketing-Comapny/index.html",
-    "static/css/main.b68a7ea4.chunk.css.map": "/Clever-Marketing-Comapny/static/css/main.b68a7ea4.chunk.css.map",
-    "static/js/2.fbc52c47.chunk.js.LICENSE.txt": "/Clever-Marketing-Comapny/static/js/2.fbc52c47.chunk.js.LICENSE.txt"
+    "static/css/main.c23e23eb.chunk.css.map": "/Clever-Marketing-Comapny/static/css/main.c23e23eb.chunk.css.map",
+    "static/js/2.fbc52c47.chunk.js.LICENSE.txt": "/Clever-Marketing-Comapny/static/js/2.fbc52c47.chunk.js.LICENSE.txt",
+    "static/media/logo.d22a5357.png": "/Clever-Marketing-Comapny/static/media/logo.d22a5357.png",
+    "static/media/product-1.3b33e4f7.png": "/Clever-Marketing-Comapny/static/media/product-1.3b33e4f7.png",
+    "static/media/product-2.5bb03867.png": "/Clever-Marketing-Comapny/static/media/product-2.5bb03867.png",
+    "static/media/team--1.51c0a181.png": "/Clever-Marketing-Comapny/static/media/team--1.51c0a181.png",
+    "static/media/team--2.dc62a1c4.png": "/Clever-Marketing-Comapny/static/media/team--2.dc62a1c4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.915b2f1e.js",
     "static/js/2.fbc52c47.chunk.js",
-    "static/css/main.b68a7ea4.chunk.css",
-    "static/js/main.7bfdab56.chunk.js"
+    "static/css/main.c23e23eb.chunk.css",
+    "static/js/main.d89061c9.chunk.js"
   ]
 }
