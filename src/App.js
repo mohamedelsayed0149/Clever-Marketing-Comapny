@@ -7,7 +7,8 @@ import Products from './Products';
 import Team from './Team';
 import ContactUs from './ContactUs';
 import MapPart from './MapPart';
-import { FooterContainer } from './containers/footer';
+import Foot from "./Foot";
+
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <hr />
       <ContactUs />
       <hr />
+      <Foot />
     </div>
   );
 }

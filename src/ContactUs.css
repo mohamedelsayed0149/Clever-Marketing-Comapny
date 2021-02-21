@@ -56,21 +56,23 @@
 
 .contact_section .section-title{
   color: floralwhite;
-  background-color: red;
+  background-color: #df0021;
   margin: 50px 100px;
   padding: 10px 10px;
-  width: 415px;
+  width: 350px;
   height: 120px;
+  z-index: 99;
   
 }
 .contact_section .section-title h2{
-  font-size: 46px;
-  font-weight: 700;
+  font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
 
 }
 .contact_section .section-title span {
   height: 5px;
-    width: 130px;
+    width: 170px;
     background-color: #fff;
     position: absolute;
 
@@ -87,7 +89,7 @@
     font-weight: var(--font-semi);
     padding: 2rem;
     border-radius: 3px;
-    border: 2px solid red;
+    border: 2px solid #df0021;
     outline: none;
     margin-bottom: var(--mb-4);
   }
@@ -98,9 +100,9 @@
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
-    border-radius: .2rem;
+    border-radius: .3rem;
     color: #eeee;
-    background-color: red;
+    background-color:#df0021;
     width: 100px;
     padding: 10px;
     font-size: 24px;
@@ -108,7 +110,7 @@
   }
   .about {
     position: relative;
-    margin: 30px 220px;
+    margin: 10px 20px;
     padding: 90px 0;
     color: #070b45;
     background-color: rgba(228, 229, 241, 0.55);
@@ -117,14 +119,14 @@
   }
   .about h2{
     color: #070b45;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 700;
     margin: 10px 0;
 }
   .about h4{
-      font-size: 24px;
-      font-weight: 600;
-      margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
   }
   .about .widget{
       margin: 50px 0;
@@ -134,4 +136,6 @@
     font-weight: 500;
     font-size: 20px;
     margin-left: 50px;
+    
   }
+  

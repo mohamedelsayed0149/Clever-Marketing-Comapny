@@ -52,8 +52,11 @@ const ContactUs = () => {
 		    </div>
           <div className="widget widget_tweets">
                <h4>Factories :</h4>
-               <p className="address">
+               <p className="address" id="factories">
                New Borg El Arab City Third Industrial Zone Alexandria, Egypt
+              <br/> Phone: +203-4622023 /
+               +203-4622024 / +203-4622025<br/>
+               Fax:+203-4622026
                </p>
 		    </div>
             </div>
