@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Clever-Marketing-Comapny/static/css/main.c23e23eb.chunk.css",
-    "main.js": "/Clever-Marketing-Comapny/static/js/main.d89061c9.chunk.js",
-    "main.js.map": "/Clever-Marketing-Comapny/static/js/main.d89061c9.chunk.js.map",
-    "runtime-main.js": "/Clever-Marketing-Comapny/static/js/runtime-main.915b2f1e.js",
-    "runtime-main.js.map": "/Clever-Marketing-Comapny/static/js/runtime-main.915b2f1e.js.map",
-    "static/js/2.fbc52c47.chunk.js": "/Clever-Marketing-Comapny/static/js/2.fbc52c47.chunk.js",
-    "static/js/2.fbc52c47.chunk.js.map": "/Clever-Marketing-Comapny/static/js/2.fbc52c47.chunk.js.map",
-    "static/js/3.6ef69b20.chunk.js": "/Clever-Marketing-Comapny/static/js/3.6ef69b20.chunk.js",
-    "static/js/3.6ef69b20.chunk.js.map": "/Clever-Marketing-Comapny/static/js/3.6ef69b20.chunk.js.map",
+    "main.css": "/Clever-Marketing-Comapny/static/css/main.312e8156.chunk.css",
+    "main.js": "/Clever-Marketing-Comapny/static/js/main.503103a1.chunk.js",
+    "main.js.map": "/Clever-Marketing-Comapny/static/js/main.503103a1.chunk.js.map",
+    "runtime-main.js": "/Clever-Marketing-Comapny/static/js/runtime-main.9de92ba3.js",
+    "runtime-main.js.map": "/Clever-Marketing-Comapny/static/js/runtime-main.9de92ba3.js.map",
+    "static/js/2.a707c0da.chunk.js": "/Clever-Marketing-Comapny/static/js/2.a707c0da.chunk.js",
+    "static/js/2.a707c0da.chunk.js.map": "/Clever-Marketing-Comapny/static/js/2.a707c0da.chunk.js.map",
+    "static/js/3.6807699e.chunk.js": "/Clever-Marketing-Comapny/static/js/3.6807699e.chunk.js",
+    "static/js/3.6807699e.chunk.js.map": "/Clever-Marketing-Comapny/static/js/3.6807699e.chunk.js.map",
     "index.html": "/Clever-Marketing-Comapny/index.html",
-    "static/css/main.c23e23eb.chunk.css.map": "/Clever-Marketing-Comapny/static/css/main.c23e23eb.chunk.css.map",
-    "static/js/2.fbc52c47.chunk.js.LICENSE.txt": "/Clever-Marketing-Comapny/static/js/2.fbc52c47.chunk.js.LICENSE.txt",
+    "static/css/main.312e8156.chunk.css.map": "/Clever-Marketing-Comapny/static/css/main.312e8156.chunk.css.map",
+    "static/js/2.a707c0da.chunk.js.LICENSE.txt": "/Clever-Marketing-Comapny/static/js/2.a707c0da.chunk.js.LICENSE.txt",
+    "static/media/footer.8ae3ff6a.png": "/Clever-Marketing-Comapny/static/media/footer.8ae3ff6a.png",
     "static/media/logo.d22a5357.png": "/Clever-Marketing-Comapny/static/media/logo.d22a5357.png",
     "static/media/product-1.3b33e4f7.png": "/Clever-Marketing-Comapny/static/media/product-1.3b33e4f7.png",
     "static/media/product-2.5bb03867.png": "/Clever-Marketing-Comapny/static/media/product-2.5bb03867.png",
@@ -19,9 +20,9 @@
     "static/media/team--2.dc62a1c4.png": "/Clever-Marketing-Comapny/static/media/team--2.dc62a1c4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.915b2f1e.js",
-    "static/js/2.fbc52c47.chunk.js",
-    "static/css/main.c23e23eb.chunk.css",
-    "static/js/main.d89061c9.chunk.js"
+    "static/js/runtime-main.9de92ba3.js",
+    "static/js/2.a707c0da.chunk.js",
+    "static/css/main.312e8156.chunk.css",
+    "static/js/main.503103a1.chunk.js"
   ]
 }
